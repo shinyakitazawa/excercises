@@ -3,7 +3,6 @@ require_once('menu.php');
 
 class Dessert extends Menu {
   private $type;
-  private $empty;
 
   public function __construct($name, $price, $image, $type) {
     parent::__construct($name, $price, $image);
